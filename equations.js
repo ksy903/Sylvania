@@ -1,7 +1,7 @@
 function pageTransition() {
-    window.plugins.nativepagetransitions.slide({
-        "href" : "anotherPage.html"
-    });
+    var duration = 0.5, // animation time in seconds
+    direction = "right"; // animation direction - left | right | top | bottom
+     nativetransitions.flip(duration, direction, onComplete);
 }
 
 function slide(href) {
