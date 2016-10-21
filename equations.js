@@ -4,6 +4,12 @@ function pageTransition() {
     });
 }
 
+function slide(href) {
+    window.plugins.nativepagetransitions.slide({
+        "href" : href
+    });
+}
+
 function calculationValidate(calculationType){
     if(calculationType == 1){
         var a = document.getElementById("SCFM").value;
