@@ -1,4 +1,5 @@
 function pageTransition(){
+	alert("HELOOOOOOOOO");
 	window.plugins.nativepagetransitions.flip(
 		"direction"      : "up", // 'left|right|up|down', default 'right' (Android currently only supports left and right)
 		"duration"       :  600, // in milliseconds (ms), default 400
