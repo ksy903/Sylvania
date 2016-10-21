@@ -32,7 +32,7 @@ function onDeviceReady(){
 function pageTransition() {
     window.plugins.nativepagetransitions.slide({
     // the defaults for direction, duration, etc are all fine
-    	"href" : "next.html"
+    	"href" : "anotherPage.html"
     });
 }
 
