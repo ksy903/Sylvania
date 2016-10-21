@@ -1,7 +1,7 @@
 function pageTransition(){
 	alert("HELOOOOOOOOO");
 	var options = {
-  		"direction"        : "up", // 'left|right|up|down', default 'left' (which is like 'next')
+  		"direction"        : "left", // 'left|right|up|down', default 'left' (which is like 'next')
   		"duration"         :  500, // in milliseconds (ms), default 400
   		"slowdownfactor"   :    3, // overlap views (higher number is more) or no overlap (1). -1 doesn't slide at all. Default 4
   		"slidePixels"      :   20, // optional, works nice with slowdownfactor -1 to create a 'material design'-like effect. Default not set so it slides the entire page.
