@@ -1,25 +1,7 @@
-function pageTransition(){
-	alert("HELOOOOOOOOO");
-	
-	var options = {
-	  	"direction"        : "left", // 'left|right|up|down', default 'left' (which is like 'next')
-		"href"             :  "anotherPage.html"
-	};
-
-	window.plugins.nativepagetransitions.slide(
-		options,
-		function (msg) {console.log("success: " + msg)}, // called when the animation has finished
-		function (msg) {alert("error: " + msg)} // called in case you pass in weird values
-	);
-	
-	window.plugins.nativepagetransitions.executePendingTransition(
-            function (msg) {
-                alert("manual success: " + msg);
-            },
-            function (msg) {
-                alert("manual error: " + msg);
-            }
-    	);
+function pageTransition() {
+    window.plugins.nativepagetransitions.slide({
+        "href" : "anotherPage.html"
+    });
 }
 
 function calculationValidate(calculationType){
