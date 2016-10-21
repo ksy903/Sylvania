@@ -1,3 +1,9 @@
+document.addEventListener('deviceready', this.onDeviceReady, false);
+
+function onDeviceReady(){
+	alert("Cordova device ready.");
+}
+
 function pageTransition() {
     var duration = 0.5, // animation time in seconds
     direction = "right"; // animation direction - left | right | top | bottom
